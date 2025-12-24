@@ -36,7 +36,7 @@
         0
       ],
       "id": "ad160ee2-ee08-4337-8cb1-656d310aeadf",
-      "name": "Get row(s) in sheet",
+      "name": "Clear sheet",
       "credentials": {
         "googleSheetsOAuth2Api": {
           "id": "JTkKL0fAY2m4aVB0",
@@ -50,14 +50,14 @@
       "main": [
         [
           {
-            "node": "Get row(s) in sheet",
+            "node": "Clear sheet",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Get row(s) in sheet": {
+    "Clear sheet": {
       "main": [
         []
       ]
@@ -70,7 +70,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "d3ca3d12-5ec5-40ef-bb2f-07709bf85b21",
+  "versionId": "2b9f7afb-df58-469d-a042-d88dff9c822f",
   "owner": {
     "type": "team",
     "teamId": "zwghoA4HBxyNlbUI",
