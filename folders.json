@@ -15,6 +15,14 @@
       "homeProjectId": "rzwjCMBQK3XP4ik8",
       "createdAt": "2025-12-24T11:38:05.884Z",
       "updatedAt": "2025-12-24T11:38:05.884Z"
+    },
+    {
+      "id": "zGMQFrkkWaKbMYwi",
+      "name": "PROD",
+      "parentFolderId": null,
+      "homeProjectId": "rzwjCMBQK3XP4ik8",
+      "createdAt": "2025-12-24T14:10:51.406Z",
+      "updatedAt": "2025-12-24T14:10:51.406Z"
     }
   ]
 }
