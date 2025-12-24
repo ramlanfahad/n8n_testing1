@@ -1,0 +1,16 @@
+{
+  "id": "JTkKL0fAY2m4aVB0",
+  "name": "Google Sheets account",
+  "type": "googleSheetsOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "rzwjCMBQK3XP4ik8",
+    "projectName": "FR R <fahad.r@spurtreetech.com>",
+    "personalEmail": "fahad.r@spurtreetech.com"
+  },
+  "isGlobal": false
+}
