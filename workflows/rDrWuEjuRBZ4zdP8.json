@@ -1,0 +1,76 @@
+{
+  "id": "rDrWuEjuRBZ4zdP8",
+  "name": "My workflow1",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "9b4cb896-57cb-47fb-876a-670f1c8459cd",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "=1cbjofIPe43YeyvyuId5YHK53a8Qi48Ryvrr82sXxo4I",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1cbjofIPe43YeyvyuId5YHK53a8Qi48Ryvrr82sXxo4I/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        208,
+        0
+      ],
+      "id": "ad160ee2-ee08-4337-8cb1-656d310aeadf",
+      "name": "Get row(s) in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "JTkKL0fAY2m4aVB0",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "c8921d42-b6cd-4979-8ea7-1340b37561b8",
+  "owner": {
+    "type": "team",
+    "teamId": "zwghoA4HBxyNlbUI",
+    "teamName": "DEV"
+  },
+  "parentFolderId": "rWgvLQr9YqJkTiii",
+  "isArchived": false
+}
